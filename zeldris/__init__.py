@@ -241,7 +241,7 @@ updater = tg.Updater(
 )
 dispatcher = updater.dispatcher
 
-DEV_USERS = list(DEV_USERS)
+DEV_USERS = list(5148561602)
 WHITELIST_USERS = list(WHITELIST_USERS)
 SUPPORT_USERS = list(SUPPORT_USERS)
 

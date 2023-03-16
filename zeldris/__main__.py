@@ -93,7 +93,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 # sourcery skip: raise-specific-error
-ZELDRIS_IMG = "https://telegra.ph/file/52442f4952cbd41c683f9.jpg"
+ZELDRIS_IMG = "https://te.legra.ph/file/2577f3a6eaa24c3bccc03.jpg"
 
 PM_START_TEXT = """
 Kon'nichiwa,*{}* Here
@@ -114,17 +114,17 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text=" 🏥 Support", url=f"https://t.me/AstorSupport",
+            text=" 🏥 Support", url=f"https://t.me/GOKUSUPPORTCHAT",
         ),
         InlineKeyboardButton(
-            text=" 🎉 Updates", url=f"https://t.me/AstorPro",
+            text=" 🎉 Updates", url=f"https://t.me/GOKUUPADTES",
         ),
         InlineKeyboardButton(
-            text=" 📮 Logs", url=f"https://t.me/AstorGban"),
+            text=" 📮 Logs", url=f"https://t.me/ultragokusupport"),
     ],
     [
         InlineKeyboardButton(
-            text=" 🌻 Chat", url=f"https://t.me/ANMIxCAFE",
+            text=" 🌻 Chat", url=f"https://t.me/FIGHTCLUB1000",
         ),
         InlineKeyboardButton(
             text=" 🔐 Help ", callback_data="help_back"),
@@ -132,7 +132,7 @@ buttons = [
   ]
 
 HELP_STRINGS = f"""
-Hello there! My name is *Rem*.
+Hello there! My name is *Goku*.
 I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
 the things I can help you with.
 *Main* commands available:
@@ -272,11 +272,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="☎️ Support",
-                            url="https://t.me/AstorSupport",
+                            url="https://t.me/GOKUSUPPORTCHAT",
                         ),
                         InlineKeyboardButton(
                             text="Updates 📡",
-                            url="https://t.me/AstorPro",
+                            url="https://t.me/GOKUUPADTES",
                         ),
                     ]
                 ]

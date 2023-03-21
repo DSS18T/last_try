@@ -93,11 +93,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 # sourcery skip: raise-specific-error
-ZELDRIS_IMG = "https://telegra.ph/file/2577f3a6eaa24c3bccc03.jpg"
+ZELDRIS_IMG = "https://graph.org/file/1279899936df257e31957.jpg"
 
 PM_START_TEXT = """
 Kon'nichiwa,*{}* Here
-*I am an Anime themed advance group management bot with a lot of awesome Features.* [ㅤ](https://telegra.ph/file/2577f3a6eaa24c3bccc03.jpg)
+*I am an Anime themed advance group management bot with a lot of awesome Features.* [ㅤ](https://graph.org/file/1279899936df257e31957.jpg)
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ◑ *Uptime:* `{}`
 ◑ `{}` *users, across* `{}` *chats.*

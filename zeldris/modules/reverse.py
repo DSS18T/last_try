@@ -2,7 +2,7 @@
 import requests
 
 
-from FallenRobot import pbot as app, TOKEN
+from zeldris import app, TOKEN
 from pyrogram import filters
 
 from urllib.parse import quote_plus

@@ -51,7 +51,7 @@ from zeldris import (
     CERT_PATH,
     MESSAGE_DUMP,
     PORT,
-    URL,
+    URL, app,
     LOGGER,
     BLACKLIST_CHATS,
     WHITELIST_CHATS,
@@ -704,5 +704,6 @@ def main():
 
 if __name__ == "__main__":
     LOGGER.info(f"[Zeldris] Successfully loaded modules: {str(ALL_MODULES)}")
+    app.run()
     client.start(bot_token=TOKEN)
     main()

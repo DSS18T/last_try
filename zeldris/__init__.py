@@ -236,9 +236,13 @@ finally:
 # Telethon
 client = TelegramClient(MemorySession(), API_ID, API_HASH)
 
-app = Client(name="bot", 
-     api_id=API_ID, api_hash=API_HASH,
-     bot_token=TOKEN)
+app = Client(
+     name="ZeldrisBot", 
+     api_id=API_ID, 
+     api_hash=API_HASH,
+     bot_token=TOKEN,
+     plugins=dict(root="zeldris"),)
+
 
 updater = tg.Updater(
     TOKEN,

@@ -20,7 +20,7 @@ pillow~=9.1.0
 pretty-errors~=1.2.25
 psutil~=5.9.0
 psycopg2-binary
-pyrogram
+pyrogram==2.0.104
 pyrate-limiter
 python-telegram-bot==13.13
 pytz
@@ -31,7 +31,7 @@ speedtest-cli>=2.0.2
 SQLAlchemy~=1.4.40
 telethon~=1.24.0
 telegraph~=2.1.0
-tgcrypto
+tgcrypto==1.2.5
 ujson~=5.2.0
 wget
 wikipedia~=1.4.0

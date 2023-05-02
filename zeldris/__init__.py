@@ -27,6 +27,7 @@ import telegram.ext as tg
 from redis import StrictRedis
 from telethon import TelegramClient
 from telethon.sessions import MemorySession
+from pyrogram import Client
 
 StartTime = time.time()
 
@@ -234,6 +235,11 @@ finally:
 
 # Telethon
 client = TelegramClient(MemorySession(), API_ID, API_HASH)
+
+app = Client(name="bot", 
+     api_id=API_ID, api_hash=API_HASH,
+     bot_token=TOKEN)
+
 updater = tg.Updater(
     TOKEN,
     workers=min(32, os.cpu_count() + 4),
